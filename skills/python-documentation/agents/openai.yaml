@@ -1,0 +1,4 @@
+interface:
+  display_name: "Python Documentation"
+  short_description: "Google-style Python API documentation"
+  default_prompt: "Use $python-documentation to document this Python API."
