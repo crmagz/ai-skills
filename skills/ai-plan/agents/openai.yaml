@@ -1,0 +1,4 @@
+interface:
+  display_name: "AI Plan"
+  short_description: "Risk-scaled durable implementation plans"
+  default_prompt: "Use $ai-plan to inspect this change and prepare a risk-scaled implementation plan."
