@@ -1,0 +1,4 @@
+interface:
+  display_name: "Session Handoff"
+  short_description: "Create and resume validated work handoffs"
+  default_prompt: "Use $session-handoff to capture the current work state for a future session."
