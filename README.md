@@ -4,6 +4,7 @@ Generic AI-agent rules and skills for software delivery workflows.
 
 ## Structure
 
+- `AGENTS.md` contains the generic open source development policy to copy into future repositories.
 - `rules/` contains reusable coding, testing, documentation, infrastructure, Git, and pull-request standards.
 - `skills/` contains task-oriented workflows that agents can invoke for common engineering activities.
 
