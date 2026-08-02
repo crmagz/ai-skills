@@ -62,7 +62,7 @@ Do not escalate from intuition. Do not label missing tests as a finding unless t
 2. Check out the exact researched head SHA locally in a separate worktree or another isolated checkout. Do not modify the author's branch, push fixes, or change the PR unless separately asked.
 3. Have the reviewer reconcile the research evidence with the local source, dependencies, tests, and exact diff. Remove duplicates and unproven concerns.
 4. Submit every finding as a GitHub line comment anchored to the changed line that best explains it. Use `RIGHT` for additions or context and `LEFT` for deletions. Use a review event of `REQUEST_CHANGES` only when at least one Blocker or Critical finding remains. Otherwise submit a `COMMENT` review with the inline recommendations.
-5. Include a concise, nonempty review body of one sentence at most, as required by GitHub for both review events. Put findings in inline comments, not in a summary or a separate issue.
+5. Include a concise, nonempty review body of one sentence at most, as required by GitHub's REST create-review endpoint for both review events. Put findings in inline comments, not in a summary or a separate issue.
 
 When using the GitHub API, submit one review with `commit_id` set to the inspected head SHA and provide each finding in the review's `comments` array with `path`, `line`, `side`, and `body`. Set `side: "RIGHT"` for added or context lines and `side: "LEFT"` for deleted lines. Do not comment on unchanged lines when an adjacent changed line can anchor the explanation.
 

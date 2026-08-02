@@ -13,6 +13,6 @@ Use independent research lenses for logic and state, plus completeness and edge 
 
 For local code, remediate substantiated findings, add regression coverage where needed, and complete only after the formatter, linter, type checks, and applicable tests pass. Keep pre-existing failures separate.
 
-For pull requests, research the remote diff at a fixed head SHA, verify that exact SHA in an isolated local checkout, then submit findings as GitHub inline comments on changed lines. Anchor added or context lines on `RIGHT` and deleted lines on `LEFT`. Use `REQUEST_CHANGES` only for Blocker or Critical findings. Otherwise submit a `COMMENT` review. Include a concise nonempty review body of one sentence at most.
+For pull requests, research the remote diff at a fixed head SHA, verify that exact SHA in an isolated local checkout, then submit findings as GitHub inline comments on changed lines. Anchor added or context lines on `RIGHT` and deleted lines on `LEFT`. Use `REQUEST_CHANGES` only for Blocker or Critical findings. Otherwise submit a `COMMENT` review. Include a concise nonempty review body of one sentence at most when using GitHub's REST create-review endpoint.
 
 Write concise, evidence-led comments in a collaborative principal-engineer voice. State the trigger, mechanism, consequence, and suggested remedy. Never use em dashes. Do not call a review nonblocking, do not add vague concerns, and do not duplicate findings.
