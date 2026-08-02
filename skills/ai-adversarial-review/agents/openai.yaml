@@ -1,0 +1,4 @@
+interface:
+  display_name: "AI Adversarial Review"
+  short_description: "Deep correctness and edge-case code review"
+  default_prompt: "Use $ai-adversarial-review to review this code or pull request."
