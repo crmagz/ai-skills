@@ -1,0 +1,4 @@
+interface:
+  display_name: "YAML Documentation"
+  short_description: "Document portable YAML configuration safely"
+  default_prompt: "Use $yaml-documentation to document this YAML configuration."
