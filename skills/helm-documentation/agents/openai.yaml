@@ -1,0 +1,4 @@
+interface:
+  display_name: "Helm Documentation"
+  short_description: "Document Helm charts and values contracts"
+  default_prompt: "Use $helm-documentation to document this Helm chart and its values."
