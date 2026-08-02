@@ -1,0 +1,4 @@
+interface:
+  display_name: "JavaScript Documentation"
+  short_description: "JSDoc for JavaScript and TypeScript APIs"
+  default_prompt: "Use $javascript-typescript-documentation to document this JavaScript or TypeScript API."
